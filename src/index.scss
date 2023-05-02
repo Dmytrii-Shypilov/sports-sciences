@@ -1,0 +1,43 @@
+@import "modern-normalize/modern-normalize.css";
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --secondary-txt-col: #fff;
+  --accent-col: rgb(241, 92, 39);
+  --main-font-col: #1e2951;
+  --c1: #2c3c76;
+  --c2: #3a4f9b;
+  --c3: #10162c;
+  --border-col: #e6e6e6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+svg {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
