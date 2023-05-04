@@ -1,11 +1,13 @@
+import s from "./icons.module.scss"
+
 export const ArticleIcon = ({width, fill}) => {
     return (
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        <svg  className={s.icon} version="1.0" xmlns="http://www.w3.org/2000/svg"
  width={width}  viewBox="0 0 800.000000 797.000000"
  preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,797.000000) scale(0.100000,-0.100000)"
-fill={fill} stroke="none">
+ stroke="none">
 <path d="M892 7950 c-60 -37 -62 -51 -62 -450 l0 -360 -357 -1 c-395 0 -413
 -3 -450 -58 l-23 -34 0 -3476 c0 -3469 0 -3476 20 -3509 41 -67 -180 -62 2765
 -62 2924 0 2706 -4 2754 56 20 26 21 37 21 400 l0 373 374 3 c364 3 375 4 403

@@ -1,6 +1,9 @@
+import s from './icons.module.scss'
+
 export const FoodIcon = ({width, fill}) => {
   return (
     <svg
+    className={s.icon}
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
       width={width}

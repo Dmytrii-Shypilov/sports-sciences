@@ -14,13 +14,23 @@ const DescriptionSection = () => {
       <Container>
         <div className={s.wrapper}>
           <h2 className={s.title}>Description block</h2>
+          <p className={s.descrText}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            ipsum quis veritatis laborum ipsam corrupti incidunt porro aliquam
+            tenetur, quibusdam eius sunt dolorem consequuntur eligendi velit
+            quidem soluta nam doloribus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            ipsum quis veritatis laborum ipsam corrupti incidunt porro aliquam
+            tenetur, quibusdam eius sunt dolorem consequuntur eligendi velit
+            quidem soluta nam doloribus.
+          </p>
           <ul className={s.list}>
             <li className={s.listItem}>
               <div className={s.imageThumb}>
-                <ArticleIcon width="60"/>
+                <ArticleIcon/>
               </div>
 
-              <p className={s.text}>
+              <p className={s.iconText}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur est maiores quos, harum cumque odit quia repellendus
                 ducimus maxime placeat voluptatem pariatur ea, illum inventore.
@@ -29,9 +39,9 @@ const DescriptionSection = () => {
             </li>
             <li className={s.listItem}>
               <div className={s.imageThumb}>
-                <DumbellIcon width="60"/>
+                <DumbellIcon/>
               </div>
-              <p className={s.text}>
+              <p className={s.iconText}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur est maiores quos, harum cumque odit quia repellendus
                 ducimus maxime placeat voluptatem pariatur ea, illum inventore.
@@ -40,9 +50,9 @@ const DescriptionSection = () => {
             </li>
             <li className={s.listItem}>
               <div className={s.imageThumb}>
-                <FoodIcon width="60" />
+                <FoodIcon/>
               </div>
-              <p className={s.text}>
+              <p className={s.iconText}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur est maiores quos, harum cumque odit quia repellendus
                 ducimus maxime placeat voluptatem pariatur ea, illum inventore.

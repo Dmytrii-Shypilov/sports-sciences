@@ -18,7 +18,7 @@ const Header = () => {
     <header className={s.header}>
       <Container>
         <div className={s.wrapper}>
-          <NavLink to="/" className={s.logo}>
+          <NavLink to="/home" className={s.logo}>
             <Logo />
           </NavLink>
           <nav>
