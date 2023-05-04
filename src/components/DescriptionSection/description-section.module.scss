@@ -1,0 +1,39 @@
+.section {
+    padding: 30px 0px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageThumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid black;
+   
+}
+
+.image {
+    width: 60px;
+    
+}
+
+.text {
+    width: 250px;
+    text-align: justify;
+}

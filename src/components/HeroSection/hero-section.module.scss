@@ -1,6 +1,7 @@
 .textBlock {
     width: 400px;
     margin-left: 500px;
+    
 }
 
 .title {
@@ -11,6 +12,7 @@
 .text {
     color: var(--secondary-txt-col);
     text-align: left;
+    
 }
 
 .heroSection {
@@ -18,5 +20,6 @@
     width: 100%;
     height: 600px;
     background-image: url('../../images/pexels-li-sun-2294361.webp');
+    background-repeat: no-repeat;
     background-position: right 0px top -150px;
 }

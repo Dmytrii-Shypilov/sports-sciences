@@ -24,13 +24,18 @@ const Header = () => {
           <nav>
             <ul className={s.linkList}>
               <li className={s.listItem}>
-                <NavLink to="/" className={getClassName}>
+                <NavLink to="/home" className={getClassName}>
                   Головна
                 </NavLink>
               </li>
               <li className={s.listItem}>
                 <NavLink to="/blog" className={getClassName}>
                   Блог
+                </NavLink>
+              </li>
+              <li className={s.listItem}>
+                <NavLink to="/academy" className={getClassName}>
+                  Академія
                 </NavLink>
               </li>
               <li className={s.listItem}>
