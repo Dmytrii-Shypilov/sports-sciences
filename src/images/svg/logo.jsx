@@ -2,7 +2,7 @@ export const Logo = ({ elCol, backCol }) => {
   const backColor = backCol ? backCol : "#ffffff";
   
   return (
-    <svg width="130" height="60" viewBox="0 0 410 92" class="css-1j8o68f">
+    <svg width="130" height="60" viewBox="0 0 410 92" >
       <defs id="SvgjsDefs12703"></defs>
       <g
         id="SvgjsG12704"

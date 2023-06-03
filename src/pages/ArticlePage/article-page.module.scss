@@ -1,0 +1,39 @@
+.section {
+    padding: 30px 0px;
+}
+
+.title {
+    text-align: center;
+}
+
+.thumb {
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.highlight {
+    padding: 15px 0px;
+}
+
+.text {
+    margin: 15px 0px;
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-left: 3px solid var(--accent-col);
+    color: var(--accent-col);
+    font-weight: 700;
+}
+
+.summaryText {
+    font-weight: 400;
+    color: var(--main-font-col);
+}

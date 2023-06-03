@@ -1,0 +1,21 @@
+.article {
+    display: flex;
+    color: var(--main-font-col);
+    width: 800px;
+    margin: 0 auto;
+    &:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+}
+
+.link {
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+    color: var(--accent-col);
+    border-bottom: 1px solid var(--accent-col);
+    
+}
+
+.thumb {
+    margin-right: 15px;
+}
