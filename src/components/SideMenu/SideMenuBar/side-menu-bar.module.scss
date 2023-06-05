@@ -1,0 +1,35 @@
+
+.bar {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 1px solid var(--border-col);
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+        color: var(--accent-col);
+    }
+}
+
+.name {
+    line-height: 1;
+    font-weight: 500;
+   
+}
+
+// .itemsList {
+//     background-color: aqua;
+// }
+
+.icon {
+    transition: transform 250ms;
+    &:hover {
+        transform: rotate(90deg);
+    }
+}
+
+.iconDown {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,19 @@
+.barItem {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding-left: 20px;
+    border-bottom: 1px solid var(--border-col);
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+        color: var(--accent-col);
+    }
+}
+
+.barItemActive {
+    @extend .barItem;
+    color: var(--accent-col);
+}

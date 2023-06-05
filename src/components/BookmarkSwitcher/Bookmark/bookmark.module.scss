@@ -1,0 +1,28 @@
+.bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  height: 20px;
+  padding: 5px 10px;
+  border: 1px solid var(--border-col);
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  &:not(:last-of-type) {
+    margin-right: 3px;
+  }
+  &:hover {
+    color: var(--accent-col);
+    background-color: var(--border-col);
+  }
+}
+
+.bookmarkActive {
+    @extend .bookmark;
+    color: var(--accent-col);
+    background-color: var(--border-col);
+}
