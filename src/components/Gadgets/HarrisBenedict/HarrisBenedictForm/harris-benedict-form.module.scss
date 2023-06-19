@@ -1,0 +1,82 @@
+.form {
+  text-align: center;
+  border: 1px solid var(--border-col);
+  border-radius: 5px;
+  padding: 20px 50px;
+}
+
+.fieldBox {
+  display: flex;
+
+  &:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+}
+
+.field {
+  &:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}
+
+.label {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 20px;
+  font-size: 12px;
+  color: var(--main-font-col);
+  border: 1px solid var(--main-font-col);
+  border-radius: 4px;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 4px;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: var(--back-col);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--secondary-txt-col);
+  line-height: 1;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--c1);
+  }
+}
+
+.paragraph {
+  &:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+}
+
+.figures {
+  font-weight: 600;
+}
+
+.icon {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+  &:hover {
+    color: var(--accent-col);
+  }
+}

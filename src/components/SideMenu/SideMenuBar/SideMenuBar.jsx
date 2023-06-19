@@ -1,12 +1,18 @@
 import s from "./side-menu-bar.module.scss";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import ArrowIcon from "../../../images/svg/ArrowIcon";
 import SideMenuBarItem from "./SideMenuBarItem/SideMenuBarItem";
 
 const SideMenuBar = ({ name, barItems, selected, setSelected }) => {
   const [isDropped, setIsDropped] = useState(false);
+
+  useEffect(()=> {
+    if (barItems[0].id === "1") {
+      setIsDropped(true)
+    }
+  }, [])
 
   const menuBarItems = barItems.map((item) => {
     return (
@@ -20,9 +26,6 @@ const SideMenuBar = ({ name, barItems, selected, setSelected }) => {
 
   const toggleBar = () => {
     setIsDropped(!isDropped);
-    if (isDropped) {
-      // setSelected(null)
-    }
   };
 
   return (

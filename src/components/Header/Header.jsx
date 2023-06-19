@@ -18,13 +18,13 @@ const Header = () => {
     <header className={s.header}>
       <Container>
         <div className={s.wrapper}>
-          <NavLink to="/home" className={s.logo}>
+          <NavLink to="/" className={s.logo}>
             <Logo />
           </NavLink>
           <nav>
             <ul className={s.linkList}>
               <li className={s.listItem}>
-                <NavLink to="/home" className={getClassName}>
+                <NavLink to="/" className={getClassName}>
                   Головна
                 </NavLink>
               </li>

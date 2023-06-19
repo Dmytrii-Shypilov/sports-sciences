@@ -17,6 +17,8 @@ const ArticlePage = lazy(() =>
 );
 const GadgetsPage = lazy(()=> import("./pages/GadgetsPage" /*webpackChunkName: "gadgets_page" */))
 
+const AcademyPage = lazy(()=> import("./pages/AcademyPage" /*webpackChunkName: "academy_page" */))
+
 function App() {
   return (
     <div className={s.app}>
@@ -25,10 +27,11 @@ function App() {
           <div>
             <Header />
             <Routes>
-              <Route path="/home" element={<MainPage />} />
+              <Route path="/" element={<MainPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/blog/article/:id" element={<ArticlePage />} />
               <Route path="/gadgets" element={<GadgetsPage/>} />
+              <Route path="/academy" element={<AcademyPage/>}/>
             </Routes>
           </div>
           <Footer />
