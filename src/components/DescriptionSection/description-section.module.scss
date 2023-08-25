@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
 
 .descrText {
     text-align: justify;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .list {
@@ -37,13 +37,14 @@
     justify-content: center;
     width: 100px;
     height: 100px;
+    margin-bottom: 20px;
     border-bottom: 2px solid var(--main-font-col);
    
 }
 
 .image {
     width: 60px;
-    
+   
 }
 
 .iconText {
