@@ -25,7 +25,7 @@ function App() {
       <Suspense fallback={<p>Loading...</p>}>
         <div className={s.viewFrame}>
           <div>
-            <Header />
+            <Header />  
             <Routes>
               <Route path="/" element={<MainPage />} />
               <Route path="/blog" element={<BlogPage />} />
